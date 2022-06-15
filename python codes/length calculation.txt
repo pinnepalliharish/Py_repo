@@ -1,0 +1,12 @@
+print(len(input("enter a name :")))
+
+or
+
+name=input("enter a name ")
+print(len(name))
+
+
+
+op:-
+enter a name : harish
+6

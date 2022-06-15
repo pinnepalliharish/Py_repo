@@ -1,0 +1,24 @@
+
+DATA CHECKING :-
+num_char=len(input("whats ur name ?"))
+
+print(type(num_char))
+
+op:- 'int'
+
+
+**type() is used to check the datatype of the given variable
+
+##########################################################################################################################################
+
+DATA CONVERSION:-
+
+
+**we can convert any datatype into string type by str(variable given )       #str(num_char)
+EX:-
+
+print(1+2)    ----->  op:- 3
+
+print(str(1)+str(2)) -----> op:-12
+
+print(70 + float("100.5")) ----->op:-170.5

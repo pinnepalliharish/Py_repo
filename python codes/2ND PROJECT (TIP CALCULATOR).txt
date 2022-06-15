@@ -1,0 +1,41 @@
+
+print("welcone to the tip calculator .")
+bill=(input("what was the total bill :"))
+tip=(input("what was the percentage tip would  u like to give ? 10,12 or 15? :"))
+split=(input("how many people to split the bil? :"))
+
+result=(int(bill)/int(split))*(1+int(tip)/100)
+
+result_total=(round(result,2))
+
+print("each person should pay :" ,result_total )
+
+OP:-
+welcone to the tip calculator .
+what was the total bill : $"150
+what was the percentage tip would  u like to give ? 10,12 or 15? :12
+how many people to split the bil? :5
+each person should pay : $"33.6
+
+##################################################################################################### OR ####################################################################################
+
+
+print("welcone to the tip calculator .")
+bill=(input("what was the total bill : $"))
+tip=(input("what was the percentage tip would  u like to give ? 10,12 or 15? :"))
+split=(input("how many people to split the bil? :"))
+
+result=(float(bill)/int(split))*(1+int(tip)/100)
+
+result="{:.2f}".format(result)
+
+print("each person should pay : $" ,result )
+
+
+
+OP:-
+welcone to the tip calculator .
+what was the total bill : $"150
+what was the percentage tip would  u like to give ? 10,12 or 15? :12
+how many people to split the bil? :5
+each person should pay : $"33.60

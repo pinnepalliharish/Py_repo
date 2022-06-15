@@ -1,0 +1,18 @@
+a=input("a: ")
+b=input("b: ")
+
+t=a
+a=b
+b=t
+
+print("\na:",a)
+print("b:",b)
+
+
+
+op:-
+a=1
+b=2
+
+a=2
+b=1

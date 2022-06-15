@@ -1,0 +1,6 @@
+bill=(input("total bill = "))
+total_persons=(input("no.of persons ="))
+tip=(input("tip u wanted to give ="))
+result=(float(bill)/float(total_persons))*(1+int(tip)/100)
+round_result=(round(result,5))
+print("each person should pay ",round_result)

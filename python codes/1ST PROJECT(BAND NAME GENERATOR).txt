@@ -1,0 +1,31 @@
+print("welcome to a band name generator !")
+city =input("what's the name of the city you grew up in?\n")
+pet=input("what's ur pet name ?\n")
+
+print("your band name could be ",city + " " +pet)
+
+
+################################################################ OR ###########################################################################
+
+
+print("welcome to a band name generator !")
+city =input("what's the name of the city you grew up in?\n")
+pet=input("what's ur pet name ?\n")
+
+
+bandname=city +" " + pet
+
+print("your band name could be ",bandname)
+
+op:-
+welcome to band name generator !
+what's the name of the city you grew up in?
+tdp
+what's ur pet name ?
+chichu
+your band name could be tdp chichu
+
+
+
+
+ 
